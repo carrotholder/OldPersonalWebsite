@@ -23,7 +23,7 @@ body
 .user-box img
 {
     border-radius: 50%;
-    width: 250px;
+    width: 200px;
     border: 2px solid rgb(6, 60, 80);
 }
 .user-box h1
@@ -70,7 +70,7 @@ body
 }
 .profile-img
 {
-    height: 650px;
+    width: 100%;
     padding-top: 5px;
 }
 
@@ -298,4 +298,11 @@ body
     padding-left: 30px;
     width: 80px;
     transition: 1s;
+}
+
+/*-------------- Mobile Responsive --------------*/
+@media screen and (max-width: 768px) { 
+    .user-box img {
+        width: 40vw;
+    }
 }
